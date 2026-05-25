@@ -97,12 +97,12 @@ html, body {
   gap: 3px;
   z-index: 2;
   padding: 2px;
-  background:
-    linear-gradient(180deg, rgba(40, 8, 14, 0.35) 0%, rgba(60, 16, 24, 0.35) 100%);
+  background: #1a0610;
   border-radius: 10px;
   box-shadow:
-    inset 0 0 16px rgba(0, 0, 0, 0.45),
-    0 4px 16px rgba(0, 0, 0, 0.4);
+    inset 0 0 18px rgba(0, 0, 0, 0.7),
+    0 6px 22px rgba(0, 0, 0, 0.55),
+    0 0 0 2px rgba(255, 209, 102, 0.35);
 }
 
 .reel {
@@ -111,10 +111,10 @@ html, body {
   overflow: hidden;
   border-radius: 6px;
   background:
-    linear-gradient(180deg, rgba(20, 4, 8, 0.55) 0%, rgba(40, 12, 18, 0.4) 50%, rgba(20, 4, 8, 0.55) 100%);
+    linear-gradient(180deg, #1a0610 0%, #2a0c18 50%, #1a0610 100%);
   box-shadow:
-    inset 0 0 8px rgba(0, 0, 0, 0.6),
-    inset 0 0 0 1px rgba(255, 209, 102, 0.15);
+    inset 0 0 12px rgba(0, 0, 0, 0.75),
+    inset 0 0 0 1px rgba(255, 209, 102, 0.3);
 }
 
 .reel-tape {
@@ -130,7 +130,7 @@ html, body {
 .cell {
   width: 100%;
   aspect-ratio: 1 / 1;
-  background-size: cover;
+  background-size: 180% auto;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -138,6 +138,8 @@ html, body {
   align-items: center;
   justify-content: center;
 }
+
+.sym-W { background-size: 105% 105%; }
 
 .cell:not(.blank)::before {
   content: '';
@@ -149,7 +151,7 @@ html, body {
   z-index: -1;
 }
 
-.sym-W { background-image: url('../assets/symbols/wild.png'); }
+.sym-W { background-image: url('../assets/symbols/wild.png'); background-size: 105% 105%; }
 .sym-C { background-image: url('../assets/symbols/sycee.png'); }
 .sym-A { background-image: url('../assets/symbols/jade.png'); }
 .sym-F { background-image: url('../assets/symbols/bag.png'); }
@@ -384,8 +386,8 @@ html, body {
 
 .spin-orb {
   position: relative;
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   border: none;
   padding: 0;
   cursor: pointer;
@@ -395,9 +397,9 @@ html, body {
 .spin-orb::before {
   content: '';
   position: absolute;
-  width: 58%;
-  height: 58%;
-  top: 50%;
+  width: 78%;
+  height: 78%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: url('../assets/decor/spin-orb.png') center/contain no-repeat;
