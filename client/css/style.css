@@ -89,14 +89,14 @@ html, body {
 /* ---------- Board (3x3 dentro do cenário) ---------- */
 .board {
   position: absolute;
-  top: 27%;
-  left: 14%;
-  width: 72%;
+  top: 26%;
+  left: 12%;
+  width: 76%;
   aspect-ratio: 1 / 1;
   display: flex;
-  gap: 6px;
+  gap: 3px;
   z-index: 2;
-  padding: 4px;
+  padding: 2px;
   background:
     linear-gradient(180deg, rgba(40, 8, 14, 0.35) 0%, rgba(60, 16, 24, 0.35) 100%);
   border-radius: 10px;
@@ -130,7 +130,7 @@ html, body {
 .cell {
   width: 100%;
   aspect-ratio: 1 / 1;
-  background-size: 86% 86%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -149,7 +149,7 @@ html, body {
   z-index: -1;
 }
 
-.sym-W { background-image: url('../assets/symbols/wild.png'); background-size: 100% 100%; }
+.sym-W { background-image: url('../assets/symbols/wild.png'); }
 .sym-C { background-image: url('../assets/symbols/sycee.png'); }
 .sym-A { background-image: url('../assets/symbols/jade.png'); }
 .sym-F { background-image: url('../assets/symbols/bag.png'); }
