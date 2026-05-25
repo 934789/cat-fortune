@@ -1,7 +1,7 @@
 import { api } from './api.js';
 
 const SYMBOL_NAME = {
-  W: 'Gato', C: 'Yuanbao', A: 'Hongbao', F: 'Gema', P: 'Lanterna', L: 'Tangerina', X: 'Lichia'
+  W: 'Gato', C: 'Lingote', A: 'Jade', F: 'Pote de Moedas', P: 'Hongbao', L: 'Foguete', X: 'Tangerina'
 };
 const ALL_NON_WILD = ['C', 'A', 'F', 'P', 'L', 'X'];
 const ALL_SYMS = ['W', ...ALL_NON_WILD];
@@ -247,13 +247,19 @@ async function animateBonusColumn(colIdx, columnAfter, previousFilled, durationM
   tape.innerHTML = columnAfter.map(s => cellHTML(s)).join('');
 }
 
-function celebrateMascot(level = 'small') {
-  const m = $('mascot');
-  if (!m) return;
-  m.classList.remove('celebrating', 'big-celebrate');
+function showWinTier(winX) {
+  const el = $('win-tier');
+  if (!el) return;
+  let tier;
+  if (winX >= 30) tier = 'tier-4';      // Super Ganho
+  else if (winX >= 15) tier = 'tier-3'; // Mega Ganho
+  else if (winX >= 5) tier = 'tier-2';  // Grande Ganho
+  else tier = 'tier-1';                 // Ganho
+  el.className = 'win-tier';
   // eslint-disable-next-line no-unused-expressions
-  m.offsetHeight;
-  m.classList.add(level === 'big' ? 'big-celebrate' : 'celebrating');
+  el.offsetHeight;
+  el.classList.add(tier, 'show');
+  setTimeout(() => el.classList.remove('show', tier), 1800);
 }
 
 async function spin() {
@@ -287,7 +293,7 @@ async function spin() {
       );
       if (winX >= 5) fireEffect('fx-coins', 1400);
       if (winX >= 20) fireEffect('fx-bigwin', 1600);
-      celebrateMascot(winX >= 10 ? 'big' : 'small');
+      showWinTier(winX);
     }
 
     $('balance').textContent = formatMoney(result.balance);
@@ -296,7 +302,6 @@ async function spin() {
     if (result.bonus) {
       await sleep(900);
       clearWinHighlights();
-      celebrateMascot('big');
       await showBonus(result.bonus);
       $('last-win').textContent = formatMoney(result.totalWin);
       $('balance').textContent = formatMoney(result.balance);

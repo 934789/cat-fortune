@@ -10,12 +10,12 @@ export const SYMBOLS = {
 
 export const SYMBOL_NAMES = {
   W: 'Gato',
-  C: 'Yuanbao',
-  A: 'Hongbao',
-  F: 'Gema',
-  P: 'Lanterna',
-  L: 'Tangerina',
-  X: 'Lichia'
+  C: 'Lingote',
+  A: 'Jade',
+  F: 'Pote de Moedas',
+  P: 'Hongbao',
+  L: 'Foguete',
+  X: 'Tangerina'
 };
 
 export const PAYTABLE = {
