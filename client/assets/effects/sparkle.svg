@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="sp4-core" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#fff7d6"/>
+      <stop offset="100%" stop-color="#ffd23f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sp4-glow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffd23f" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ffd23f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#sp4-glow)"/>
+  <path d="M100 30 L112.6 87.4 L170 100 L112.6 112.6 L100 170 L87.4 112.6 L30 100 L87.4 87.4 Z" fill="url(#sp4-core)"/>
+  <circle cx="100" cy="100" r="4" fill="#ffffff"/>
+</svg>

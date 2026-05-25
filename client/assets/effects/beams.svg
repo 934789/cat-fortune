@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bm-ray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff7d6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffd23f" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fff7d6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+    <rect x="57" y="0" width="14" height="200" fill="url(#bm-ray)" transform="rotate(-20 100 100)"/>
+  
+    <rect x="77" y="0" width="10" height="200" fill="url(#bm-ray)" transform="rotate(-10 100 100)"/>
+  
+    <rect x="97" y="0" width="6" height="200" fill="url(#bm-ray)" transform="rotate(0 100 100)"/>
+  
+    <rect x="117" y="0" width="10" height="200" fill="url(#bm-ray)" transform="rotate(10 100 100)"/>
+  
+    <rect x="137" y="0" width="14" height="200" fill="url(#bm-ray)" transform="rotate(20 100 100)"/>
+  
+</svg>

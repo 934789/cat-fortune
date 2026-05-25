@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    
+  <radialGradient id="cb-face" cx="35%" cy="28%" r="80%">
+    <stop offset="0%" stop-color="#fffbe0"/>
+    <stop offset="22%" stop-color="#ffe97a"/>
+    <stop offset="55%" stop-color="#ffc928"/>
+    <stop offset="85%" stop-color="#c97f10"/>
+    <stop offset="100%" stop-color="#7a4a08"/>
+  </radialGradient>
+    
+  <linearGradient id="cb-rim" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffe97a"/>
+    <stop offset="50%" stop-color="#b97411"/>
+    <stop offset="100%" stop-color="#4a2a05"/>
+  </linearGradient>
+  </defs>
+  
+    <g opacity="0.85">
+      <circle cx="60" cy="60" r="28" fill="url(#cb-rim)"/>
+      <circle cx="60" cy="60" r="25" fill="url(#cb-face)"/>
+      <rect x="50.666666666666664" y="50.666666666666664" width="18.666666666666668" height="18.666666666666668" fill="#2a0a05"/>
+    </g>
+    <g opacity="0.75">
+      <circle cx="140" cy="55" r="24" fill="url(#cb-rim)"/>
+      <circle cx="140" cy="55" r="21" fill="url(#cb-face)"/>
+      <rect x="132" y="47" width="16" height="16" fill="#2a0a05"/>
+    </g>
+    <g opacity="0.7">
+      <circle cx="100" cy="40" r="20" fill="url(#cb-rim)"/>
+      <circle cx="100" cy="40" r="17" fill="url(#cb-face)"/>
+      <rect x="93.33333333333333" y="33.333333333333336" width="13.333333333333334" height="13.333333333333334" fill="#2a0a05"/>
+    </g>
+    <g opacity="0.9">
+      <circle cx="40" cy="120" r="22" fill="url(#cb-rim)"/>
+      <circle cx="40" cy="120" r="19" fill="url(#cb-face)"/>
+      <rect x="32.666666666666664" y="112.66666666666667" width="14.666666666666666" height="14.666666666666666" fill="#2a0a05"/>
+    </g>
+    <g opacity="0.85">
+      <circle cx="160" cy="130" r="26" fill="url(#cb-rim)"/>
+      <circle cx="160" cy="130" r="23" fill="url(#cb-face)"/>
+      <rect x="151.33333333333334" y="121.33333333333333" width="17.333333333333332" height="17.333333333333332" fill="#2a0a05"/>
+    </g>
+    <g opacity="1">
+      <circle cx="100" cy="150" r="30" fill="url(#cb-rim)"/>
+      <circle cx="100" cy="150" r="27" fill="url(#cb-face)"/>
+      <rect x="90" y="140" width="20" height="20" fill="#2a0a05"/>
+    </g>
+    <g opacity="0.6">
+      <circle cx="70" cy="100" r="18" fill="url(#cb-rim)"/>
+      <circle cx="70" cy="100" r="15" fill="url(#cb-face)"/>
+      <rect x="64" y="94" width="12" height="12" fill="#2a0a05"/>
+    </g>
+    <g opacity="0.55">
+      <circle cx="135" cy="100" r="16" fill="url(#cb-rim)"/>
+      <circle cx="135" cy="100" r="13" fill="url(#cb-face)"/>
+      <rect x="129.66666666666666" y="94.66666666666667" width="10.666666666666666" height="10.666666666666666" fill="#2a0a05"/>
+    </g>
+</svg>

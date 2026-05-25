@@ -1,0 +1,20 @@
+{
+  "name": "cat-fortune",
+  "version": "0.1.0",
+  "description": "Protótipo educacional de slot 3x3 com respins. Sem dinheiro real.",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "simulate": "node server/simulate.js 1000000",
+    "simulate:short": "node server/simulate.js 100000"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "private": true,
+  "license": "UNLICENSED"
+}

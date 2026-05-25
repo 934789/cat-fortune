@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    
+  <linearGradient id="oc" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffe97a"/>
+    <stop offset="50%" stop-color="#b97411"/>
+    <stop offset="100%" stop-color="#4a2a05"/>
+  </linearGradient>
+  </defs>
+  <!-- L corner ornament -->
+  <path d="M20 20 L80 20 Q60 30 50 40 Q40 50 30 70 L20 70 Z" fill="url(#oc)" stroke="#5a2a05" stroke-width="1"/>
+  <path d="M30 30 L70 30 Q56 38 48 48 Q40 56 36 64 L30 64 Z" fill="none" stroke="#fff7d6" stroke-width="1" opacity="0.6"/>
+  <circle cx="36" cy="36" r="3" fill="#fff7d6"/>
+  <!-- swirl extension -->
+  <path d="M80 20 Q120 20 130 50 Q120 36 110 36 Q90 36 88 26" fill="none" stroke="url(#oc)" stroke-width="4"/>
+  <path d="M20 80 Q20 120 50 130 Q36 120 36 110 Q36 90 26 88" fill="none" stroke="url(#oc)" stroke-width="4"/>
+  <circle cx="130" cy="50" r="4" fill="url(#oc)" stroke="#5a2a05" stroke-width="0.6"/>
+  <circle cx="50" cy="130" r="4" fill="url(#oc)" stroke="#5a2a05" stroke-width="0.6"/>
+</svg>

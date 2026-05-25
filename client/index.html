@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#2a0000">
+<title>Cat Fortune</title>
+<link rel="preload" as="image" href="assets/decor/cenario.png">
+<link rel="preload" as="image" href="assets/decor/logo.png">
+<link rel="preload" as="image" href="assets/symbols/wild.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app">
+  <header class="logo-bar">
+    <img src="assets/decor/logo.png" alt="Cat Fortune" class="logo">
+    <span class="demo-tag">DEMO</span>
+  </header>
+
+  <div class="stage-wrap">
+    <div class="stage" id="stage">
+      <img src="assets/decor/cenario.png" alt="" class="cenario" id="cenario">
+
+      <div class="mascot" id="mascot" aria-hidden="true"></div>
+
+      <div class="board" id="board" aria-label="Grade do jogo">
+        <div class="reel" data-col="0"><div class="reel-tape" data-col="0"></div></div>
+        <div class="reel" data-col="1"><div class="reel-tape" data-col="1"></div></div>
+        <div class="reel" data-col="2"><div class="reel-tape" data-col="2"></div></div>
+        <svg class="payline-overlay" id="payline-overlay" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+      </div>
+
+      <div class="ambient" aria-hidden="true">
+        <div class="ambient-sparkle s1"></div>
+        <div class="ambient-sparkle s2"></div>
+        <div class="ambient-sparkle s3"></div>
+        <div class="ambient-sparkle s4"></div>
+        <div class="ambient-sparkle s5"></div>
+        <div class="ambient-sparkle s6"></div>
+      </div>
+
+      <div class="effect-layer" id="effect-layer">
+        <div class="burst coin-burst" id="fx-coins"></div>
+        <div class="burst firework" id="fx-firework"></div>
+        <div class="burst big-win" id="fx-bigwin"></div>
+      </div>
+
+      <div class="banner" id="banner"></div>
+    </div>
+  </div>
+
+  <div class="hud-strip">
+    <div class="hud-cell">
+      <span class="hud-label">Saldo</span>
+      <span class="hud-value" id="balance">—</span>
+    </div>
+    <div class="hud-cell">
+      <span class="hud-label">Aposta</span>
+      <span class="hud-value" id="bet">1,00</span>
+    </div>
+    <div class="hud-cell">
+      <span class="hud-label">Ganho</span>
+      <span class="hud-value" id="last-win">0,00</span>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button class="ctrl-btn" id="bet-minus" aria-label="Diminuir aposta">−</button>
+    <button class="spin-orb" id="spin" aria-label="Girar">
+      <span class="spin-orb-ring"></span>
+      <span class="spin-orb-label">GIRAR</span>
+    </button>
+    <button class="ctrl-btn" id="bet-plus" aria-label="Aumentar aposta">+</button>
+  </div>
+
+  <button class="reset-link" id="reset">Resetar saldo</button>
+
+  <footer class="footer">Protótipo educacional. Sem dinheiro real.</footer>
+</div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

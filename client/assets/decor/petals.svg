@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="ps-body" cx="40%" cy="30%">
+      <stop offset="0%" stop-color="#ffe0ea"/>
+      <stop offset="70%" stop-color="#ff8ab0"/>
+      <stop offset="100%" stop-color="#d04a78"/>
+    </radialGradient>
+  </defs>
+  
+    <g transform="translate(40 30) scale(0.5) rotate(-20)">
+      <path d="M0 -30 Q30 0 0 30 Q-30 0 0 -30 Z" fill="url(#ps-body)" stroke="#a02858" stroke-width="0.5" opacity="0.9"/>
+    </g>
+  
+    <g transform="translate(70 60) scale(0.7) rotate(15)">
+      <path d="M0 -30 Q30 0 0 30 Q-30 0 0 -30 Z" fill="url(#ps-body)" stroke="#a02858" stroke-width="0.5" opacity="0.9"/>
+    </g>
+  
+    <g transform="translate(120 40) scale(0.4) rotate(40)">
+      <path d="M0 -30 Q30 0 0 30 Q-30 0 0 -30 Z" fill="url(#ps-body)" stroke="#a02858" stroke-width="0.5" opacity="0.9"/>
+    </g>
+  
+    <g transform="translate(160 80) scale(0.6) rotate(-30)">
+      <path d="M0 -30 Q30 0 0 30 Q-30 0 0 -30 Z" fill="url(#ps-body)" stroke="#a02858" stroke-width="0.5" opacity="0.9"/>
+    </g>
+  
+    <g transform="translate(30 120) scale(0.5) rotate(25)">
+      <path d="M0 -30 Q30 0 0 30 Q-30 0 0 -30 Z" fill="url(#ps-body)" stroke="#a02858" stroke-width="0.5" opacity="0.9"/>
+    </g>
+  
+    <g transform="translate(90 140) scale(0.7) rotate(-15)">
+      <path d="M0 -30 Q30 0 0 30 Q-30 0 0 -30 Z" fill="url(#ps-body)" stroke="#a02858" stroke-width="0.5" opacity="0.9"/>
+    </g>
+  
+    <g transform="translate(140 150) scale(0.5) rotate(35)">
+      <path d="M0 -30 Q30 0 0 30 Q-30 0 0 -30 Z" fill="url(#ps-body)" stroke="#a02858" stroke-width="0.5" opacity="0.9"/>
+    </g>
+  
+    <g transform="translate(170 160) scale(0.4) rotate(-20)">
+      <path d="M0 -30 Q30 0 0 30 Q-30 0 0 -30 Z" fill="url(#ps-body)" stroke="#a02858" stroke-width="0.5" opacity="0.9"/>
+    </g>
+  
+    <g transform="translate(60 180) scale(0.6) rotate(10)">
+      <path d="M0 -30 Q30 0 0 30 Q-30 0 0 -30 Z" fill="url(#ps-body)" stroke="#a02858" stroke-width="0.5" opacity="0.9"/>
+    </g>
+  
+    <g transform="translate(120 180) scale(0.5) rotate(-25)">
+      <path d="M0 -30 Q30 0 0 30 Q-30 0 0 -30 Z" fill="url(#ps-body)" stroke="#a02858" stroke-width="0.5" opacity="0.9"/>
+    </g>
+  
+    <g transform="translate(100 90) scale(0.5) rotate(5)">
+      <path d="M0 -30 Q30 0 0 30 Q-30 0 0 -30 Z" fill="url(#ps-body)" stroke="#a02858" stroke-width="0.5" opacity="0.9"/>
+    </g>
+  
+</svg>

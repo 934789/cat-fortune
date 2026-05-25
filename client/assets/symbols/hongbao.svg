@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    
+  <linearGradient id="hb-body" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ff5a48"/>
+    <stop offset="55%" stop-color="#e02018"/>
+    <stop offset="100%" stop-color="#7a0a0e"/>
+  </linearGradient>
+    
+  <radialGradient id="hb-coin" cx="35%" cy="28%" r="80%">
+    <stop offset="0%" stop-color="#fffbe0"/>
+    <stop offset="22%" stop-color="#ffe97a"/>
+    <stop offset="55%" stop-color="#ffc928"/>
+    <stop offset="85%" stop-color="#c97f10"/>
+    <stop offset="100%" stop-color="#7a4a08"/>
+  </radialGradient>
+    <linearGradient id="hb-fold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a78" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ff8a78" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- shadow -->
+  <ellipse cx="100" cy="180" rx="60" ry="6" fill="#000" opacity="0.4"/>
+  <!-- body -->
+  <rect x="40" y="22" width="120" height="156" rx="6" fill="url(#hb-body)" stroke="#5a0a0e" stroke-width="1.5"/>
+  <!-- left highlight -->
+  <rect x="40" y="22" width="20" height="156" fill="url(#hb-fold)"/>
+  <!-- gold border -->
+  <rect x="44" y="26" width="112" height="148" rx="4" fill="none" stroke="#ffd23f" stroke-width="1.5" opacity="0.9"/>
+  <rect x="48" y="30" width="104" height="140" rx="3" fill="none" stroke="#ffd23f" stroke-width="0.6" opacity="0.5"/>
+  <!-- gold medallion -->
+  <circle cx="100" cy="100" r="34" fill="url(#hb-coin)" stroke="#7a4a08" stroke-width="1.5"/>
+  <circle cx="100" cy="100" r="28" fill="none" stroke="#7a4a08" stroke-width="0.8" opacity="0.6"/>
+  <!-- symbol: stylized 'F' (Fortune) original glyph -->
+  <path d="M88 84 L112 84 L112 92 L98 92 L98 100 L110 100 L110 108 L98 108 L98 118 L88 118 Z" fill="#7a4a08"/>
+  <!-- top fold seam -->
+  <path d="M40 50 Q100 60 160 50" stroke="#ffd23f" stroke-width="1" fill="none" opacity="0.7"/>
+  <!-- corner decorations -->
+  
+    <path d="M50 40 Q54 36 58 40 Q54 44 50 40 Z" fill="#ffd23f" opacity="0.8"/>
+  
+    <path d="M142 40 Q146 36 150 40 Q146 44 142 40 Z" fill="#ffd23f" opacity="0.8"/>
+  
+    <path d="M50 160 Q54 156 58 160 Q54 164 50 160 Z" fill="#ffd23f" opacity="0.8"/>
+  
+    <path d="M142 160 Q146 156 150 160 Q146 164 142 160 Z" fill="#ffd23f" opacity="0.8"/>
+  
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gm-top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a8a"/>
+      <stop offset="100%" stop-color="#e02018"/>
+    </linearGradient>
+    <linearGradient id="gm-side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e02018"/>
+      <stop offset="100%" stop-color="#5a0a0e"/>
+    </linearGradient>
+  </defs>
+  <!-- gem outline (octagonal cut top-down) -->
+  <path d="M60 50 L140 50 L180 100 L100 180 L20 100 Z" fill="url(#gm-side)" stroke="#3a0608" stroke-width="1.5"/>
+  <!-- crown facets -->
+  <path d="M60 50 L140 50 L120 80 L80 80 Z" fill="url(#gm-top)"/>
+  <path d="M60 50 L80 80 L40 90 L20 100 Z" fill="#e02018" opacity="0.85"/>
+  <path d="M140 50 L120 80 L160 90 L180 100 Z" fill="#e02018" opacity="0.85"/>
+  <path d="M80 80 L120 80 L100 110 Z" fill="url(#gm-top)" opacity="0.95"/>
+  <path d="M40 90 L80 80 L100 110 L60 130 Z" fill="#7a0a0e" opacity="0.85"/>
+  <path d="M160 90 L120 80 L100 110 L140 130 Z" fill="#7a0a0e" opacity="0.85"/>
+  <path d="M20 100 L40 90 L60 130 L100 180 Z" fill="#3a0608"/>
+  <path d="M180 100 L160 90 L140 130 L100 180 Z" fill="#3a0608"/>
+  <!-- speculars -->
+  <path d="M72 56 L100 56" stroke="#fff7d6" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+  <path d="M82 70 L96 70" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>

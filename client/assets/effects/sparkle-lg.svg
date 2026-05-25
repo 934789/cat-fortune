@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="sp8-glow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff7d6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffd23f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#sp8-glow)"/>
+  <path d="M100 100 L97 95.2 L100 20 L103 95.2 Z" fill="#fff7d6" transform="rotate(0 100 100)"/><path d="M100 100 L97 97.6 L100 60 L103 97.6 Z" fill="#fff7d6" transform="rotate(22.5 100 100)"/><path d="M100 100 L97 95.2 L100 20 L103 95.2 Z" fill="#fff7d6" transform="rotate(45 100 100)"/><path d="M100 100 L97 97.6 L100 60 L103 97.6 Z" fill="#fff7d6" transform="rotate(67.5 100 100)"/><path d="M100 100 L97 95.2 L100 20 L103 95.2 Z" fill="#fff7d6" transform="rotate(90 100 100)"/><path d="M100 100 L97 97.6 L100 60 L103 97.6 Z" fill="#fff7d6" transform="rotate(112.5 100 100)"/><path d="M100 100 L97 95.2 L100 20 L103 95.2 Z" fill="#fff7d6" transform="rotate(135 100 100)"/><path d="M100 100 L97 97.6 L100 60 L103 97.6 Z" fill="#fff7d6" transform="rotate(157.5 100 100)"/>
+  <circle cx="100" cy="100" r="6" fill="#ffffff"/>
+</svg>

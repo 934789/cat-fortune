@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    
+  <linearGradient id="of" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffe97a"/>
+    <stop offset="50%" stop-color="#b97411"/>
+    <stop offset="100%" stop-color="#4a2a05"/>
+  </linearGradient>
+    
+  <linearGradient id="of-bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ff5a48"/>
+    <stop offset="55%" stop-color="#e02018"/>
+    <stop offset="100%" stop-color="#7a0a0e"/>
+  </linearGradient>
+  </defs>
+  <rect x="14" y="14" width="172" height="172" rx="14" fill="none" stroke="url(#of)" stroke-width="6"/>
+  <rect x="22" y="22" width="156" height="156" rx="10" fill="none" stroke="#fff7d6" stroke-width="1" opacity="0.5"/>
+  <!-- corner medallions -->
+  
+    <circle cx="14" cy="14" r="10" fill="url(#of)" stroke="#5a2a05" stroke-width="1"/>
+    <circle cx="14" cy="14" r="4" fill="#7a0a0e"/>
+  
+    <circle cx="186" cy="14" r="10" fill="url(#of)" stroke="#5a2a05" stroke-width="1"/>
+    <circle cx="186" cy="14" r="4" fill="#7a0a0e"/>
+  
+    <circle cx="14" cy="186" r="10" fill="url(#of)" stroke="#5a2a05" stroke-width="1"/>
+    <circle cx="14" cy="186" r="4" fill="#7a0a0e"/>
+  
+    <circle cx="186" cy="186" r="10" fill="url(#of)" stroke="#5a2a05" stroke-width="1"/>
+    <circle cx="186" cy="186" r="4" fill="#7a0a0e"/>
+  
+  <!-- top scroll bar -->
+  <path d="M60 14 Q100 0 140 14" fill="url(#of-bg)" stroke="#5a0a0e" stroke-width="1"/>
+  <path d="M70 10 Q100 4 130 10" fill="none" stroke="url(#of)" stroke-width="1.5"/>
+</svg>
