@@ -130,7 +130,7 @@ html, body {
 .cell {
   width: 100%;
   aspect-ratio: 1 / 1;
-  background-size: 180% auto;
+  background-size: 220% auto;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -138,8 +138,6 @@ html, body {
   align-items: center;
   justify-content: center;
 }
-
-.sym-W { background-size: 105% 105%; }
 
 .cell:not(.blank)::before {
   content: '';
@@ -151,7 +149,7 @@ html, body {
   z-index: -1;
 }
 
-.sym-W { background-image: url('../assets/symbols/wild.png'); background-size: 105% 105%; }
+.sym-W { background-image: url('../assets/symbols/wild.png'); }
 .sym-C { background-image: url('../assets/symbols/sycee.png'); }
 .sym-A { background-image: url('../assets/symbols/jade.png'); }
 .sym-F { background-image: url('../assets/symbols/bag.png'); }
